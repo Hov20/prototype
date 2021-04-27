@@ -2,9 +2,10 @@
 <html>
 
 <head>
-    <title>lesson 1
-
-    </title>
+    <meta charset="utf-8"/>
+    <title>lesson 1</title>
+    <link rel="stylesheet" href="style.css"/>
+    
 </head>
 <body>
     <h1>Ողջույն բոլորին</h1>
@@ -138,6 +139,7 @@
 <hr/>
 <h2 align="center">Registration form</h2>
 <form>
+    <div id="prototype">
     <table cellpadding="10" align="center">
         <tr>
     <td><label for="First">First Name</label></td>
@@ -175,18 +177,19 @@
             </tr>
             <tr>
                 <td><label for="address">Address</label></td>
-                <td><input type="text" id="address" size="20"/></td>
+                <td><textarea id="address" cols="22" rows="5"></textarea></td>
             </tr>
             <tr>
                 <td><label></label></td>
                <td><button type="submit">submit</button> <button type="reset">reset</button>
             </tr>
     </table>
+    </div>
 </form>
 <br/>
 <hr/>
-
-<h3 align="center" style="color: red;">Personal Detalis</h3>
+<div id="KIT">
+<h3 align="center" id="qwe">Personal Detalis</h3>
 <form>
     <table cellpadding="10" align="center">
         <tr>
@@ -211,7 +214,7 @@
         </tr>
     </table>
 </form>
-<h3 align="center" style="color: red;">Educational Qualification</h3>
+<h3 align="center" id="abs">Educational Qualification</h3>
 <form>
     <table align="center" cellpadding="10">
         <tr>
@@ -245,18 +248,120 @@
     </table>
 </form>
 
-<h3 align="center" style="color: red;">Address</h3>
+<h3 align="center" id="id">Address</h3>
    <form>   
    <table align="center" cellpadding="10">
    <tr>
-   <td><input type="text"/></td>
+   <td><textarea cols="50" rows="10"></textarea></td>
    </tr>
+   </table>
+   <table align="center" cellpadding="10">
    <tr>
    <td><label>Attch Resume:</label></td>
    <td><input type="button" value="Choose File"/>No file choosen</td>
    </tr>
    </table>
    </form>
+   <div align="center">
+       <button id="proto">SUBMIT</button>
+   </div>
+   <br/>
+</div>
+<br/>
+<div id="B">
+    <h3 id="KRR" align="center">KM Custom HTML Form Example Using AppleScript</h3>
+    <h5 align="center">(by JMichaelTX)</h5>
+    <table align="center" cellpadding="2" border="1">
+        <tr>
+            <td align="left">Name:</td>
+            <td align="left">
+                <input type="text"/>
+            </td>
+        </tr>
+        <tr>
+            <td align="left">Email:</td>
+            <td align="left">
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td align="left">Password:</td>
+            <td align="left">
+                <input type="text"/>
+            </td>
+        </tr>
+        <tr>
+            <td align="left">Approval Required:
+                <p>Click on the button or text to<br/>check/uncheck.</p>
+            </td>
+            <td align="start">
+                <input type="checkbox"/>Do you approve?
+            </td>
+        </tr>
+        <tr>
+            <td>Pick Your Favorite: 
+                <p>Click on the button or text to <br/>select.</p>
+            </td>
+            <td><input type="radio"/>Choice A
+                <br/><input type="radio" checked/>Choice B
+                <br/><input type="radio">Choice C
+            </td>
+        </tr>
+        <tr>
+            <td>Popum Menu:</td>
+            <td><input type="hidden"/>
+                <select>
+                    <option>Texas -- TX</option>
+                    <option>Colorado</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>List
+                <p>Setup Options:<br/>
+                    <ul>
+                        <li>Number of rows to display</li>
+                        <li>Allow Multi-select</li>
+                    </ul>
+                </p>
+            </td>
+            <td>
+                <select size="5">
+                    <option>California -- CA</option>
+                    <option>Colorado -- CO</option>
+                    <option>Connecticut -- CN</option>
+                    <option>Dalifornia -- DA</option>
+                    <option>Dolorado -- DO</option>
+                    <option>Texas -- TX</option>
+                    <option>LasVegas -- LV</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Field Ignored by KM</td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Text Area
+                <p></p>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        </table>
+            
+        <table align="center">
+        <tr>
+            <td><button id="Q">Save</button></td>
+            <td><button id="W">Cancel</button></td>
+            <td><button id="E">Resize</button></td>
+        </tr>
+        </table>
+    
+</div>
    </body>
 
 

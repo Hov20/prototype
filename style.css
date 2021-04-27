@@ -1,0 +1,44 @@
+h2 {
+    color: red;
+}
+#qwe {
+    color: red;
+}
+#abs {
+    color: red;
+}
+#id {
+    color: red;
+}
+#prototype {
+    background-color: rgb(184, 174, 174);
+}
+#proto {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(212, 124, 22);
+    border-radius: 5px;
+    color: black;
+}
+#KIT {
+    background-color: rgb(110, 245, 0);
+}
+#B {
+    background-color: rgb(228, 106, 6);
+}
+#Q {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+#W {
+   background-color: white; 
+   border-radius: 10px;
+}
+#E {
+    background-color: gray;
+    border-radius: 10px;
+}
+#KRR {
+    font-style: italic;
+}
